@@ -3,9 +3,13 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" /> 
 </head>
 <body>
+ <div class ="container">
  <h1>Jhanell Edwards</h1>
+ <img   src="{{ url_for('static', filename='Jhanell_Edwards.jpg')}}" alt="Profile Picture" height= "200" width="150" />
  <p>In the heart of Jamaica, I'm a university student, embracing every rhythm and color the island offers. From the sun-kissed days in Kingston to the vibrant nights filled with reggae beats, I'm immersed in the pulse of Jamaican life. Dressed in the lively hues that mirror the spirit of this island, I navigate through its bustling streets with purpose and passion. Each taste of Jamaican cuisine, every laughter-filled conversation, shapes my journey as I pursue my dreams in academia. Jamaica isn't just where I study; it's where I find inspiration, strength, and a sense of belonging. In this land of endless possibilities, I'm not just a student—I'm a part of the vibrant tapestry that makes Jamaica truly extraordinary.</p>
+ </div>
 </body>
 </html>
